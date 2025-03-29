@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { UserPlus, CalendarPlus, FilePlus, Flask, PlusCircle, FileText } from 'lucide-react';
+import { UserPlus, CalendarPlus, FilePlus, BeakerIcon, PlusCircle, FileText } from 'lucide-react';
 
 interface QuickActionProps {
   title: string;
@@ -45,7 +45,7 @@ export default function QuickActions() {
     {
       title: "Lab Request",
       description: "Submit lab test request",
-      icon: <Flask size={20} />,
+      icon: <BeakerIcon size={20} />,
       href: "/laboratory/new-request"
     },
     {
